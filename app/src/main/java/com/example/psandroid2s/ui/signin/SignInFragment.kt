@@ -20,6 +20,7 @@ class SignInFragment : Fragment() {
     private val providers = arrayListOf(
         AuthUI.IdpConfig.EmailBuilder().build(),
         AuthUI.IdpConfig.GoogleBuilder().build(),
+        AuthUI.IdpConfig.GitHubBuilder().build(),
     )
 
     override fun onCreateView(
