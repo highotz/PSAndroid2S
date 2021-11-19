@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "411178118934",
+    "project_id": "ps2android-d3081",
+    "storage_bucket": "ps2android-d3081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411178118934:android:bdb7a379606f2bc0a7aa37",
+        "android_client_info": {
+          "package_name": "com.example.ps2sandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411178118934-1nip91e398l72vmbje6cfqduv2mqtk4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYZLim-BXFETUPZrDyzE9VU7DRSnXyqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411178118934-1nip91e398l72vmbje6cfqduv2mqtk4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411178118934:android:95bd141a4559b4aaa7aa37",
+        "android_client_info": {
+          "package_name": "com.example.psandroid2s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411178118934-1nip91e398l72vmbje6cfqduv2mqtk4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYZLim-BXFETUPZrDyzE9VU7DRSnXyqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411178118934-1nip91e398l72vmbje6cfqduv2mqtk4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
