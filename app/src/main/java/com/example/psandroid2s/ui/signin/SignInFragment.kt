@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.example.psandroid2s.R
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
@@ -26,6 +27,7 @@ class SignInFragment : Fragment() {
     private var REQUEST_CODE = 1001
     private val providers = arrayListOf(
         AuthUI.IdpConfig.EmailBuilder().build(),
+        AuthUI.IdpConfig.GitHubBuilder().build(),
     )
 
     override fun onCreateView(
@@ -53,8 +55,9 @@ class SignInFragment : Fragment() {
 
             if(resultCode == Activity.RESULT_OK){
                 val firebaseUser = Firebase.auth.currentUser
-                Log.i("FirebaseUIResult", "${firebaseUser?.email}")
-                Toast.makeText(requireActivity().applicationContext, "Falha no Login!", Toast.LENGTH_LONG).show()
+                Toast.makeText(requireActivity().applicationContext, "Login com sucesso!", Toast.LENGTH_LONG).show()
+                findNavController().navigate(R.id.action_signInFragment_to_listAllFragment)
+
             }else  {
                 Toast.makeText(requireActivity().applicationContext, "Falha no Login!", Toast.LENGTH_LONG).show()
             }

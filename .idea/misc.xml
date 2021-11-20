@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Openmind_Developer/AndroidStudioProjects/PSAndroid2S/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Openmind_Developer/AndroidStudioProjects/PSAndroid2S/app/src/main/res/layout/list_all_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Openmind_Developer/AndroidStudioProjects/PSAndroid2S/app/src/main/res/layout/medicoes_item.xml" value="0.5" />
         <entry key="..\:/Users/Openmind_Developer/AndroidStudioProjects/PSAndroid2S/app/src/main/res/layout/sign_in_fragment.xml" value="0.1213768115942029" />
       </map>
     </option>
